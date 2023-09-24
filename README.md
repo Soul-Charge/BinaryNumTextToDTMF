@@ -17,7 +17,7 @@
 2. 使用什么都好反正转成用数字表示二进制数据的文本文件  
 3. 用记事本打开`Btext.txt`, 填入数字文本，用空格作为分隔符，不要有除了`0`, `1`, ` ` 以外的任何字符  
 4. 运行程序，正常的话会显示`Seems nothing is bad, you can shutdown this window.`, 然后可以关掉了  
-5. 在项目根目录打开终端，输入这个:`ffmpeg -f concat -safe 0 -i concat.txt -codec out.wav`  
+5. 在项目根目录打开终端，输入这个:`ffmpeg -f concat -safe 0 -i concat.txt -codec copy out.wav`  
 
 **DTMF解析**
 1. 把创建出来的`out.wav`放到这个网页里解析成原内容  
